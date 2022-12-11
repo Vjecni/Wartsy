@@ -47,12 +47,12 @@ button {
 }
 input {
     background: none;
-    color: #000;
+    color: #1a1a1a;
     transition: .4s ease;
     padding: 10px 10px;
     width: 100%;
     font-size: var(--font-small);
-    border: solid 2px #000;
+    border: solid 2px #1a1a1a;
     outline: none;
 }
 img {
@@ -62,7 +62,7 @@ img {
 }
 input:focus,
 textarea:focus {
-    background: #000;
+    background: #1a1a1a;
     color: #fff;
 }
 button {
@@ -73,7 +73,7 @@ button {
     font-family: 'artifika';
 }
 .rounded {
-    background: #000;
+    background: #1a1a1a;
     color: #fff;
     max-width: 200px;
     width: 100%;
@@ -154,13 +154,13 @@ textarea {
 .methods_title span {
     height: 2.5px;
     width: 40px;
-    background: #000;
+    background: #1a1a1a;
 
 }
 .methods_box {
     padding: 10px 15px;
     font-size: 16px;
-    border: solid 2px #000;
+    border: solid 2px #1a1a1a;
     max-width: 250px;
     width: 100%;
     display: flex;
@@ -175,7 +175,7 @@ textarea {
     text-align: center;
 }
 .methods_box:hover {
-    background: #000;
+    background: #1a1a1a;
     box-shadow: 5px 5px 0px #fff;
     color: #fff;
 }
