@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+:root {
+    --font-small: 1rem;
+    --font-medium: 1.3rem;
+    --font-large: 1.6rem;
+    --font-xl: 2.3rem;
+    --font-xxl: 3.5rem;
+    --font-xxxl: 4.2rem;
+}
+::selection {
+    background: #E14DE3;
+    color: #fff;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    color: #2768c9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p, a, span {
+    font-size: var(--font-small);
+}
+button {
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+}
+input {
+    background: none;
+    color: #000;
+    transition: .4s ease;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: var(--font-small);
+    border: solid 2px #000;
+    outline: none;
+}
+img {
+    max-width: 20rem;
+    width: 100%;
+    user-select: none; 
+}
+input:focus,
+textarea:focus {
+    background: #000;
+    color: #fff;
+}
+button {
+    cursor: pointer;
+}
+.artifika {
+    font-size: 45px;
+    font-family: 'artifika';
+}
+.rounded {
+    background: #000;
+    color: #fff;
+    max-width: 200px;
+    width: 100%;
+    padding: 10px 0px !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.sign {
+    padding: 1em;
+    width: 100%;
+    margin: auto;
+}
+.sign_content {
+    width: 100%;
+}
+.sign_box {
+    max-width: 750px;
+    width: 100%;
+    padding: 20px;
+}
+.sign_title {
+    margin-bottom: 50px;
+}
+.input_box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+label {
+    transition: .4s ease;
+    transform: translate(0%, -50%);
+}
+input {
+    position: relative;
+    display: block;
+}
+textarea {
+    background: none;
+    color: #fff;
+    transition: .4s ease;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: var(--font-small);
+    border: solid 2px #fff;
+    outline: none;
+    resize: none;
+    height: 150px;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.content {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.methods {
+    text-align: center;
+    margin-top: 30px;
+}
+.methods_title { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    margin-bottom: 30px;
+}
+.methods_title span {
+    height: 2.5px;
+    width: 40px;
+    background: #000;
+
+}
+.methods_box {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: solid 2px #000;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    transition: .4s ease;
+    align-items: center;
+    gap: .5em;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.methods_box p {
+    text-align: center;
+}
+.methods_box:hover {
+    background: #000;
+    box-shadow: 5px 5px 0px #fff;
+    color: #fff;
+}
+.methods_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+.login {
+    margin-top: 30px;
+}
