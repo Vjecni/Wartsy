@@ -6,11 +6,13 @@ get('.hamburger').onEvent('click', () => {
     get('.mobile_menu').toggle('active')
 })
 
-let mobileLink = document.querySelectorAll('.-mobile_link')
-let mobileMenu = document.querySelector('.mobile_menu')
 
-for(let i = 0; i < mobileLink.length; i++) {
-    mobileLink[i].addEventListener('click', () => {
-        mobileMenu.classList.toggle('active')
-    })
-}
+
+get('.mobile_menu').onEvent('click', function (event) {
+
+  if (event.target.matches('a[href^="#"]'))
+
+    this.toggle('active')
+
+})
+
